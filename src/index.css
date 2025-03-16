@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Montserrat&family=Roboto&display=swap');
+
+.font-caveat { font-family: 'Caveat', cursive; }
+.font-dancing { font-family: 'Dancing Script', cursive; }
+.font-roboto { font-family: 'Roboto', sans-serif; }
+.font-montserrat { font-family: 'Montserrat', sans-serif; }
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  @layer base {
+    * {
+      @apply transition-colors duration-300;
+    }
+  }
